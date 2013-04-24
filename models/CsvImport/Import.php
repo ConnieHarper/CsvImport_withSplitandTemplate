@@ -294,9 +294,9 @@ public function logit($data){
 	    // insert to the Resource table
 	    
 		//connie - add call to insert the location into the new geo-chron table
-		$db = get_db();
-                $sql = "call omeka_db.spInsertLocation(".$item['id'].")";
-                $db->query($sql);
+//		$db = get_db();
+ //               $sql = "call omeka_db.spInsertLocation(".$item['id'].")";
+  //              $db->query($sql);
 
 
 	     // insert the files for the item, releasing the file from memory each time
